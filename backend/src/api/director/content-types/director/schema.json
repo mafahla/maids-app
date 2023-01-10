@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "directors",
+  "info": {
+    "singularName": "director",
+    "pluralName": "directors",
+    "displayName": "director"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "picture": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
